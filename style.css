@@ -1,0 +1,240 @@
+/* Add your custom styles here */
+body {
+    padding-top: 56px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Change background color as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    color: #fff; /* Brand text color */
+    font-size: 1.5rem; /* Brand text size */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    color: #fff; /* Toggler icon color */
+}
+
+/* Navbar Links */
+.navbar-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    margin: 0 10px; /* Adjust spacing between links */
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff; /* Link text color */
+    font-size: 1rem; /* Link text size */
+}
+
+/* Change link color on hover */
+.navbar-links a:hover {
+    color: #66d9e8; /* Change to your desired hover color */
+}
+
+
+/* Add more styles as needed */
+/* Add your custom styles here */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name {
+    max-width: 600px;
+}
+
+/* Add your custom styles here */
+#resume {
+    padding: 60px 0;
+}
+
+.education {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: calc(50% - 20px);
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    color: #007bff;
+}
+
+/* Add more styles as needed */
+/* Add your custom styles here */
+#contact {
+    padding: 60px 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add more styles as needed */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-rights p {
+    margin: 0;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-social a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+    /* Style for Project Cards */
+    .project-card {
+        margin-bottom: 20px;
+        overflow: hidden;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+
+    .project-card:hover {
+        transform: scale(1.05);
+    }
+
+    .card-img-top {
+        height: 250px;
+        object-fit: cover;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    .card-img-top:hover {
+        transform: scale(1.2);
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .card-text {
+        color: #6c757d;
+    }
+
+    /* Style for Project Titles */
+    h2 {
+        color: #007bff;
+    }
